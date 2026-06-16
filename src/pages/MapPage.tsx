@@ -16,12 +16,12 @@ import { thinkers, Thinker } from "../data/thinkers";
 import { ThinkerFlashcard } from "../components/ThinkerFlashcard";
 
 const eras = [
-  { id: "era-1", title: "1. Ancient Greek and Roman Foundations", period: "Antiquity", height: 800, color: "rgba(229, 225, 214, 0.4)" },
-  { id: "era-2", title: "2. Early Christian and Medieval Education", period: "Middle Ages", height: 500, color: "rgba(15, 23, 42, 0.05)" },
-  { id: "era-3", title: "3. Enlightenment and Natural Education", period: "Enlightenment", height: 800, color: "rgba(181, 148, 16, 0.05)" },
-  { id: "era-4", title: "4. Modern Pedagogy and Schooling", period: "19th Century", height: 800, color: "rgba(229, 225, 214, 0.4)" },
-  { id: "era-5", title: "5. Progressive Education & Critical Theory", period: "20th Century", height: 2600, color: "rgba(15, 23, 42, 0.08)" },
-  { id: "era-6", title: "6. Contemporary Educational Theory", period: "Contemporary", height: 1000, color: "rgba(181, 148, 16, 0.1)" },
+  { id: "era-1", title: "1. Ancient Greek and Roman Foundations", period: "Antiquity", height: 1000, color: "rgba(229, 225, 214, 0.4)" },
+  { id: "era-2", title: "2. Early Christian and Medieval Education", period: "Middle Ages", height: 1000, color: "rgba(15, 23, 42, 0.05)" },
+  { id: "era-3", title: "3. Enlightenment and Early Modern", period: "Enlightenment", height: 1200, color: "rgba(181, 148, 16, 0.05)" },
+  { id: "era-4", title: "4. Nineteenth-Century Pedagogy", period: "19th Century", height: 1200, color: "rgba(229, 225, 214, 0.4)" },
+  { id: "era-5", title: "5. Progressive Education & Critical Theory", period: "20th Century", height: 3200, color: "rgba(15, 23, 42, 0.08)" },
+  { id: "era-6", title: "6. Contemporary Educational Theory", period: "Contemporary", height: 1800, color: "rgba(181, 148, 16, 0.1)" },
 ];
 
 const nodeTypes = {
