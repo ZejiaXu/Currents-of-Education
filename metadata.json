@@ -1,0 +1,6 @@
+{
+  "name": "Currents of Education",
+  "description": "A Living Map of Western Educational Thought",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
