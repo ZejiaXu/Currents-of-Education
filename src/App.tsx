@@ -13,7 +13,9 @@ function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-navy text-white h-16 border-b border-brand-border flex items-center px-8 transition-colors">
       <div className="w-full flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <span className="text-2xl font-serif italic text-brand-gold">CE</span>
+          <Link to="/" className="text-2xl font-serif italic text-brand-gold hover:text-[#E8CD6C] hover:opacity-80 transition-all cursor-pointer">
+            CE
+          </Link>
           <h1 className="text-lg font-serif tracking-tight">
             <Link to="/">Currents of Education <span className="opacity-70 font-sans text-xs uppercase tracking-widest ml-2 hidden sm:inline">A Living Map of Western Educational Thought</span></Link>
           </h1>
